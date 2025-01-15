@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.14.0a3-alpine
 WORKDIR /app
 COPY . /app
 RUN pip install -r requirements.txt
